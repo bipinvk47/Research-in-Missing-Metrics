@@ -8,7 +8,7 @@ This repository produces **100% predictable** Pylint `R1702` (`too-many-nested-b
 
 1. Raw Pylint text output is captured correctly
 2. JSON/CSV extraction is accurate
-3. `detected_nesting_depth` values parse correctly from messages like `Too many nested blocks (6/5)`
+3. `detected_nesting_depth` values parse correctly from messages like `Too many nested blocks (6/5)` updated the readme for commit retrigger testing
 
 ## Test Cases
 
