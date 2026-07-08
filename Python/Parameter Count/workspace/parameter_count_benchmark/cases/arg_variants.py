@@ -1,4 +1,4 @@
-"""Benchmark case: positional-only, keyword-only, *args, **kwargs and other flow added and updated the flow."""
+"""Benchmark case: positional-only, keyword-only, *args, *"""
 
 
 def mixed_parameters(pos_only, /, regular, *args, kw_only, **kwargs):
