@@ -1,4 +1,4 @@
-"""Benchmark case: positional-only, keyword-only, *args, other flow changes have been updated *"""
+"""Benchmark case: positional-only, keyword-only, *args, retesting the commit change flow *"""
 
 
 def mixed_parameters(pos_only, /, regular, *args, kw_only, **kwargs):
