@@ -1,10 +1,10 @@
 """Generate cppcheck_code_smells_extraction.ipynb."""
 from __future__ import annotations
-"""HELLO TEAM"""
+
 import json
 from pathlib import Path
-"""TEAM"""
-"""BYE"""
+
+
 ROOT = Path(__file__).resolve().parent
 METRIC_ROOT = ROOT.parent
 NOTEBOOK = METRIC_ROOT / "cppcheck_code_smells_extraction.ipynb"
@@ -54,7 +54,11 @@ class NotebookLogger:
     def info(self, message: str) -> None:
         timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
         print(f"[{timestamp}] INFO: {message}")
-
+        
+  def information(self, message: str) -> None:
+        timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
+        print(f"[{timestamp}] INFO: {message}")
+        
     def error(self, message: str) -> None:
         timestamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S UTC")
         line = f"[{timestamp}] ERROR: {message}\n"
